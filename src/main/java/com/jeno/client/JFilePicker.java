@@ -39,13 +39,7 @@ public class JFilePicker extends JPanel {
 
         textField = new JTextField(30);
         button = new JButton(buttonLabel);
-
-        button.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent evt) {
-                buttonActionPerformed(evt);
-            }
-        });
+        button.addActionListener(evt -> buttonActionPerformed(evt));
 
         add(label);
         add(textField);

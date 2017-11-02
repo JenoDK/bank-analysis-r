@@ -1,6 +1,6 @@
 # bank-analysis-r
 
-A tool to show some bank record analysis<br/>
+A tool to show some bank record analysis read from a csv file<br/>
 
 Based on <a href="https://benjaminlmoore.wordpress.com/2014/01/04/analyse-your-bank-statements-using-r/">this</a> but done with the use of java.
 
